@@ -6,4 +6,4 @@ import Repos from './Repos'
 import Search from './Search'
 import User from './User'
 
-export { Card, Followers, Info, Navbar, Repos, Search, User }
+export { Info, Navbar, Repos, Search, User }
