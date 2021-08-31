@@ -4,6 +4,8 @@ import FusionCharts from 'fusioncharts'
 import Chart from 'fusioncharts/fusioncharts.charts'
 import Theme from 'fusioncharts/themes/fusioncharts.theme.gammel'
 
+ReactFC.fcRoot(FusionCharts, Chart, Theme)
+
 const Column3D = ({ chartData }) => {
   const chartConfigs = {
     type: 'column3d',
