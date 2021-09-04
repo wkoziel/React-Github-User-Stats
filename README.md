@@ -1,7 +1,7 @@
-# Project Name
-> Outline a brief description of your project.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
-
+# Github User Stats
+> Aplication allowes you to search github users and generate simple stats about their profiles.
+> Live demo [_here_](https://www.example.com). 
+> 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
