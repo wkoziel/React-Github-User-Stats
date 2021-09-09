@@ -1,23 +1,25 @@
 import React from 'react'
-import { Dashboard, Login, Error } from './pages'
+import { Dashboard, Login, Error, PrivateRoute, AuthWrapper } from './pages'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 function App() {
   return (
     <div>
-      <BrowserRouter>
-        <Switch>
-          <Route exact={true} path='/'>
-            <Dashboard></Dashboard>
-          </Route>
-          <Route path='/login'>
-            <Login />
-          </Route>
-          <Route path='*'>
-            <Error />
-          </Route>
-        </Switch>
-      </BrowserRouter>
+      <AuthWrapper>
+        <BrowserRouter>
+          <Switch>
+            <PrivateRoute exact={true} path='/'>
+              <Dashboard></Dashboard>
+            </PrivateRoute>
+            <Route path='/login'>
+              <Login />
+            </Route>
+            <Route path='*'>
+              <Error />
+            </Route>
+          </Switch>
+        </BrowserRouter>
+      </AuthWrapper>
     </div>
   )
 }
