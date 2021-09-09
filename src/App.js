@@ -9,7 +9,7 @@ function App() {
         <BrowserRouter>
           <Switch>
             <PrivateRoute exact={true} path='/'>
-              <Dashboard></Dashboard>
+              <Dashboard />
             </PrivateRoute>
             <Route path='/login'>
               <Login />
