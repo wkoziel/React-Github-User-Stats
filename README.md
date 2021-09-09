@@ -1,9 +1,8 @@
 # Github User Stats
 > Aplication allowes you to search github users and generate simple stats about their profiles.
-> Live demo [_here_](https://www.example.com). 
+> Live demo [_here_](https://wkoziel-github-user-search.netlify.app/). 
 > 
 ## Table of Contents
-* [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
 * [Screenshots](#screenshots)
@@ -15,19 +14,13 @@
 * [Contact](#contact)
 <!-- * [License](#license) -->
 
-
-## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- React - version 17.0.1
+- React Router Dom - version 5.2.0
+- React Icons - version 3.11.0
+- Styled Components - version 5.2.1
+- Auth0 - version 1.2.0
+- Axios - verion 0.21.1
 
 
 ## Features
